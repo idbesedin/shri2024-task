@@ -12,7 +12,9 @@ function Header() {
     };
 
     return <header className="header">
-        <a href="/" className="header__logo" aria-label="Яндекс.Дом"></a>
+        <a href="/" className="header__logo">
+            <img src="./assets/logo.svg" alt="Яндекс.Дом" width="108px" height="37"/>
+        </a>
         <button className="header__menu" aria-expanded={expanded ? 'true' : 'false'} onClick={onClick}>
             <span className="header__menu-text a11y-hidden">
                 {expanded ? 'Закрыть меню' : 'Открыть меню'}
