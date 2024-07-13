@@ -1,6 +1,7 @@
 import React from "react"
 import './styles.css'
 import './reset.css'
+import Footer from "./Footer";
 
 function Header() {
 	let [expanded, setExpanded] = React.useState(false);
@@ -363,6 +364,7 @@ function App() {
 	<>
 		<Header />
 		<Main />
+		<Footer/>
 	</>
   )
 }
