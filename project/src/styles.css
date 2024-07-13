@@ -563,6 +563,7 @@ html, body {
     height: 4rem;
     margin-top: auto;
     padding: 0 2.5rem;
+    font-family: 'Arial';
 }
 
 @media (max-width: 768px) {
