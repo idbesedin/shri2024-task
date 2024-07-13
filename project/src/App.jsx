@@ -1,6 +1,7 @@
 import React from "react"
-import './styles.css'
+import "./vendors/bootstrap.css";
 import './reset.css'
+import './styles.css'
 
 function Header() {
 	let [expanded, setExpanded] = React.useState(false);
